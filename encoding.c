@@ -314,6 +314,14 @@ Init_PreEncoding(void)
     //add_encoding(ENCODING_EUCJP,     ENCODING_TYPE_RUBY, "EUC-JP",      1, false, true,  "eucJP", NULL);
     //add_encoding(ENCODING_SJIS,      ENCODING_TYPE_RUBY, "Shift_JIS",   1, false, true, "SJIS", NULL);
     //add_encoding(ENCODING_CP932,     ENCODING_TYPE_RUBY, "Windows-31J", 1, false, true, "CP932", "csWindows31J", NULL);
+	add_encoding(ENCODING_WINDOWS_1250,  ENCODING_TYPE_UCNV,    "Windows-1250", 1, true,  true,  false, NULL);
+	add_encoding(ENCODING_WINDOWS_1251,  ENCODING_TYPE_UCNV,    "Windows-1251", 1, true,  true,  false, NULL);
+	add_encoding(ENCODING_WINDOWS_1252,  ENCODING_TYPE_UCNV,    "Windows-1252", 1, true,  true,  false, NULL);
+	add_encoding(ENCODING_WINDOWS_1253,  ENCODING_TYPE_UCNV,    "Windows-1253", 1, true,  true,  false, NULL);
+	add_encoding(ENCODING_WINDOWS_1254,  ENCODING_TYPE_UCNV,    "Windows-1254", 1, true,  true,  false, NULL);
+	add_encoding(ENCODING_WINDOWS_1255,  ENCODING_TYPE_UCNV,    "Windows-1255", 1, true,  true,  false, NULL);
+	add_encoding(ENCODING_WINDOWS_1256,  ENCODING_TYPE_UCNV,    "Windows-1256", 1, true,  true,  false, NULL);
+	add_encoding(ENCODING_WINDOWS_1257,  ENCODING_TYPE_UCNV,    "Windows-1257", 1, true,  true,  false, NULL);
 
     default_external = rb_encodings[ENCODING_UTF8];
     default_internal = rb_encodings[ENCODING_UTF8];
