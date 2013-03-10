@@ -319,9 +319,6 @@ Init_PreEncoding(void)
 	add_encoding(ENCODING_WINDOWS_1252,  ENCODING_TYPE_UCNV,    "Windows-1252", 1, true,  true,  false, NULL);
 	add_encoding(ENCODING_WINDOWS_1253,  ENCODING_TYPE_UCNV,    "Windows-1253", 1, true,  true,  false, NULL);
 	add_encoding(ENCODING_WINDOWS_1254,  ENCODING_TYPE_UCNV,    "Windows-1254", 1, true,  true,  false, NULL);
-	add_encoding(ENCODING_WINDOWS_1255,  ENCODING_TYPE_UCNV,    "Windows-1255", 1, true,  true,  false, NULL);
-	add_encoding(ENCODING_WINDOWS_1256,  ENCODING_TYPE_UCNV,    "Windows-1256", 1, true,  true,  false, NULL);
-	add_encoding(ENCODING_WINDOWS_1257,  ENCODING_TYPE_UCNV,    "Windows-1257", 1, true,  true,  false, NULL);
 
     default_external = rb_encodings[ENCODING_UTF8];
     default_internal = rb_encodings[ENCODING_UTF8];
